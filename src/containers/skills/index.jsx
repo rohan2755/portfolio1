@@ -1,4 +1,4 @@
-import { Line } from "rc-progress";
+
 import React from "react";
 import { BsInfoCircleFill } from "react-icons/bs";
 import { Animate, AnimateKeyframes } from "react-simple-animate";
@@ -40,13 +40,6 @@ const Skills = () => {
                   >
                     <div className="progressbar-wrapper" key={j}>
                       <p>{skillItem.skillName}</p>
-                      {/* <Line
-                      // percent={skillItem.percentage}
-                      //   strokeWidth="2"
-                      //   strokeColor="var(--yellow-theme-main-color)"
-                      //   trailWidth="2"
-                      //   strokeLinecap="square"
-                      /> */}
                     </div>
                   </AnimateKeyframes>
                 ))}
